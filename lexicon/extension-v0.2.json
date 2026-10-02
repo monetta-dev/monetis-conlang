@@ -1,0 +1,3988 @@
+{
+  "title": "短い生活語を増やす — 試作05",
+  "version": "0.2-extension",
+  "date": "2026-10-02",
+  "status": "追加・改訂候補。個別見出しは未採用",
+  "baseDictionary": "draft-v0.1.json",
+  "counts": {
+    "entries": 103,
+    "additions": 90,
+    "revisions": 13
+  },
+  "transcription": {
+    "status": "発音用の暫定表記。独自文字の形態的位置を表す転写ではない。",
+    "vowels": [
+      "a",
+      "i",
+      "e",
+      "o",
+      "aa",
+      "ii",
+      "ee",
+      "oo"
+    ],
+    "consonantExamples": {
+      "j": "ʝ",
+      "gy": "ɟ",
+      "g": "g",
+      "r": "ʐ",
+      "w": "w",
+      "zh": "ʒ",
+      "dj": "dʒ"
+    }
+  },
+  "proposedRules": [
+    {
+      "id": "W1",
+      "environment": "低位vに由来する/w/が/o_a/にある古い語",
+      "steps": [
+        "/owa/ → /oa/",
+        "/oa/ → /oː/"
+      ],
+      "scope": "水と滴、およびその短縮語幹を使う後続派生。既存全語への適用は未実施。",
+      "status": "歴史的音変化の候補"
+    },
+    {
+      "id": "C1",
+      "environment": "古い名詞複合の無強勢の接続a。左が破裂音で終わり、右が母音を持つv等またはshで始まる語幹",
+      "steps": [
+        "/jak-a-vat/ → /jakvat/",
+        "/lamoːg-a-ʃaʝ/ → /lamoːgʃaʝ/"
+      ],
+      "scope": "寝床・橋の候補。語根内母音、接辞の初頭母音、長母音には適用しない。",
+      "status": "音節構造・強勢の検証を要する候補"
+    }
+  ],
+  "additionalAffixCandidates": [
+    {
+      "form": "-ich",
+      "ipa": "idʒ",
+      "level": "low",
+      "input": "飲める液体",
+      "output": "動詞",
+      "meaning": "Xを飲む",
+      "history": "果汁をすすって摂取する用法→液体の摂取。既存の食べる-echからの機能分化案で、母音i自体を液体の記号にしない。",
+      "status": "未採用"
+    },
+    {
+      "form": "-iich",
+      "ipa": "iːdʒ",
+      "level": "low",
+      "input": "飲める液体",
+      "output": "動詞",
+      "meaning": "Xを他者に飲料として与える",
+      "history": "飲料を他者に与える慣行から、-ichと区別する供与形が定着する案。長母音を使役一般のコードにしない。",
+      "status": "未採用"
+    }
+  ],
+  "affixIPA": {
+    "aj": "aɟ",
+    "aaj": "aːɟ",
+    "ij": "iɟ",
+    "iij": "iːɟ",
+    "ej": "eɟ",
+    "eej": "eːɟ",
+    "eek": "eːg",
+    "oj": "oɟ",
+    "ooj": "oːɟ",
+    "ak": "ag",
+    "aak": "aːg",
+    "ik": "ig",
+    "az": "aʐ",
+    "aaz": "aːʐ",
+    "iz": "iʐ",
+    "oz": "oʐ",
+    "ov": "ow",
+    "ev": "ew",
+    "eev": "eːw",
+    "iv": "iw",
+    "ash": "aʒ",
+    "esh": "eʒ",
+    "ach": "adʒ",
+    "ech": "edʒ",
+    "eech": "eːdʒ",
+    "ich": "idʒ",
+    "iich": "iːdʒ"
+  },
+  "entries": [
+    {
+      "id": "WATER",
+      "form": "lamoog",
+      "ipa": "lamoːg",
+      "uncontractedIPA": "lamowag",
+      "meaning": "水",
+      "domain": "水と天候",
+      "type": "語彙化候補",
+      "analysis": "old:WATER",
+      "segments": [
+        {
+          "source": "v01:WATER",
+          "notation": "lamov-ak",
+          "level": "inherited",
+          "ipa": "lamowag",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:WATER"
+      ],
+      "history": "旧候補の雨水→水という系譜を保持。低位vに由来する/w/が/o_a/で落ち、o+aが/oː/へ融合する歴史案。",
+      "scene": "水を汲んで持ち帰る。",
+      "syllables": 2,
+      "soundHistory": [
+        {
+          "rule": "W1",
+          "from": "lamowag",
+          "steps": [
+            "lamoag",
+            "lamoːg"
+          ]
+        }
+      ],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:WATER"
+      ]
+    },
+    {
+      "id": "ROOFHOME",
+      "form": "shajak",
+      "ipa": "ʃaʝak",
+      "uncontractedIPA": "ʃaʝak",
+      "meaning": "屋根；屋根付きの住まい",
+      "domain": "住まい",
+      "type": "多義化候補",
+      "analysis": "old:THATCH",
+      "segments": [
+        {
+          "source": "v01:THATCH",
+          "notation": "shaj-k",
+          "level": "inherited",
+          "ipa": "ʃaʝak",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:THATCH"
+      ],
+      "history": "草葺きの屋根→雨を避けて寝起きする屋根の下→住まい。換喩で住居の意味を持ち、屋根の意味も残す。",
+      "scene": "雨が来るので住まいに戻る。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:HOUSE",
+        "v01:THATCH"
+      ]
+    },
+    {
+      "id": "HEARTH",
+      "form": "namaz",
+      "ipa": "namaz",
+      "uncontractedIPA": "namaz",
+      "meaning": "石囲いの炉",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "old:FIRE + Z",
+      "segments": [
+        {
+          "source": "v01:FIRE",
+          "notation": "n-m",
+          "level": "inherited",
+          "ipa": "nam",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:FIRE",
+        "v01:Z"
+      ],
+      "history": "火を扱う石の囲い→石囲いの火床→炉。未決定の低位lを使わず、管理する設備を名付ける。",
+      "scene": "炉の石を積み直す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:HEARTH"
+      ]
+    },
+    {
+      "id": "SHARE",
+      "form": "chiigy",
+      "ipa": "tʃiːɟ",
+      "uncontractedIPA": "tʃiːɟ",
+      "meaning": "分け前",
+      "domain": "共同生活",
+      "type": "語彙化候補",
+      "analysis": "CH + -iij",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iij",
+          "notation": "-iij",
+          "level": "low",
+          "ipa": "iːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:CH"
+      ],
+      "history": "採集した実を共同で分ける慣行→割り当てられた実の分→食物一般の分け前。集合接辞を必須にしない。",
+      "scene": "留守の人の分け前も残す。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:SHARE"
+      ]
+    },
+    {
+      "id": "DISTRIBUTE",
+      "form": "cheegy",
+      "ipa": "tʃeːɟ",
+      "uncontractedIPA": "tʃeːɟ",
+      "meaning": "食物を配る",
+      "domain": "共同生活",
+      "type": "語彙化候補",
+      "analysis": "CH + -eej",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eej",
+          "notation": "-eej",
+          "level": "low",
+          "ipa": "eːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:CH"
+      ],
+      "history": "実を受け手ごとに分け与える動詞→食物を配る動詞へ慣用化。物一般の配分まで広げない。",
+      "scene": "夕方に食物を配る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:DISTRIBUTE"
+      ]
+    },
+    {
+      "id": "NET",
+      "form": "kagyagaag",
+      "ipa": "kaɟagaːg",
+      "uncontractedIPA": "kaɟagaːg",
+      "meaning": "網",
+      "domain": "繊維と衣類",
+      "type": "語彙化候補",
+      "analysis": "old:CORD + -aak",
+      "segments": [
+        {
+          "source": "v01:CORD",
+          "notation": "kaj-ak",
+          "level": "inherited",
+          "ipa": "kaɟag",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:aak",
+          "notation": "-aak",
+          "level": "low",
+          "ipa": "aːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:CORD"
+      ],
+      "history": "紐を交点で繋いで作る構造→網。結合構造接辞で、単なる紐束と区別する。",
+      "scene": "網の穴を繕う。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:NET"
+      ]
+    },
+    {
+      "id": "HOUSEHOLD",
+      "form": "namavat",
+      "ipa": "namavat",
+      "uncontractedIPA": "namavat",
+      "meaning": "同じ火を共にする生活集団",
+      "domain": "共同生活",
+      "type": "語彙化候補",
+      "analysis": "old:FIRE + old:BODY",
+      "segments": [
+        {
+          "source": "v01:FIRE",
+          "notation": "n-m",
+          "level": "inherited",
+          "ipa": "nam",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:BODY",
+          "notation": "v-t",
+          "level": "inherited",
+          "ipa": "vat",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:FIRE",
+        "v01:BODY"
+      ],
+      "history": "同じ火の周りにいる身体→繰り返しそこで食べ寝る人々→生活集団。血縁を必須にしない。",
+      "scene": "この生活集団で獲物を分ける。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:HOUSEHOLD"
+      ]
+    },
+    {
+      "id": "BRIDGE",
+      "form": "lamoogshaj",
+      "ipa": "lamoːgʃaʝ",
+      "uncontractedIPA": "lamoːgaʃaʝ",
+      "meaning": "橋",
+      "domain": "道と運搬",
+      "type": "語彙化候補",
+      "analysis": "WATER + old:FRAME",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:FRAME",
+          "notation": "sh-j",
+          "level": "inherited",
+          "ipa": "ʃaʝ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER",
+        "v01:FRAME"
+      ],
+      "history": "水を跨いで歩けるように渡した骨組み→橋。水の短縮した語形を使う。",
+      "scene": "橋の紐を締め直す。",
+      "syllables": 3,
+      "soundHistory": [
+        {
+          "rule": "C1",
+          "description": "古い名詞複合の境界にある無強勢接続aの脱落。接辞母音には適用しない。"
+        }
+      ],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:BRIDGE"
+      ]
+    },
+    {
+      "id": "CUTMEAT",
+      "form": "tegy",
+      "ipa": "teɟ",
+      "uncontractedIPA": "teɟ",
+      "meaning": "肉を切り分ける・獲物を解体する",
+      "domain": "火と調理",
+      "type": "規則派生＋慣用化",
+      "analysis": "T + -ej",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ej",
+          "notation": "-ej",
+          "level": "low",
+          "ipa": "eɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:T"
+      ],
+      "history": "分割できる肉を入力とする分割動詞。獲物を食べる肉へ切り分ける作業に慣用化する。",
+      "scene": "肉を保存用に切り分ける。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:BUTCHER"
+      ]
+    },
+    {
+      "id": "FOOD",
+      "form": "chadj",
+      "ipa": "tʃadʒ",
+      "uncontractedIPA": "tʃadʒ",
+      "meaning": "食物・用意した食べ物",
+      "domain": "食事",
+      "type": "語義拡張候補",
+      "analysis": "CH + -ach",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ach",
+          "notation": "-ach",
+          "level": "low",
+          "ipa": "adʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:CH",
+        "v01:T"
+      ],
+      "history": "果実を主材料として用意した食物→種実・肉と対比される食事全体→食べ物一般。最古の果実料理という中間義を置く。",
+      "scene": "旅の食物を用意する。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "EAT",
+      "form": "chadjedj",
+      "ipa": "tʃadʒedʒ",
+      "uncontractedIPA": "tʃadʒedʒ",
+      "meaning": "食べる",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FOOD + -ech",
+      "segments": [
+        {
+          "source": "v02:FOOD",
+          "notation": "FOOD",
+          "level": "inherited",
+          "ipa": "tʃadʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ech",
+          "notation": "-ech",
+          "level": "low",
+          "ipa": "edʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FOOD"
+      ],
+      "history": "食物を入力に取る。果実だけでなく、食物を食べる日常動詞。",
+      "scene": "歩く前に食べる。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:EAT"
+      ]
+    },
+    {
+      "id": "FEED",
+      "form": "chadjeedj",
+      "ipa": "tʃadʒeːdʒ",
+      "uncontractedIPA": "tʃadʒeːdʒ",
+      "meaning": "食物を与える",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FOOD + -eech",
+      "segments": [
+        {
+          "source": "v02:FOOD",
+          "notation": "FOOD",
+          "level": "inherited",
+          "ipa": "tʃadʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eech",
+          "notation": "-eech",
+          "level": "low",
+          "ipa": "eːdʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FOOD"
+      ],
+      "history": "食物を受け手に与える。入力は食物で、受け手を食物として扱わない。",
+      "scene": "子どもに食物を与える。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FOODKEEPER",
+      "form": "chadjeedjiw",
+      "ipa": "tʃadʒeːdʒiw",
+      "uncontractedIPA": "tʃadʒeːdʒiw",
+      "meaning": "食物を配膳する人",
+      "domain": "共同生活",
+      "type": "規則派生",
+      "analysis": "FEED + -iv",
+      "segments": [
+        {
+          "source": "v02:FEED",
+          "notation": "FEED",
+          "level": "inherited",
+          "ipa": "tʃadʒeːdʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iv",
+          "notation": "-iv",
+          "level": "low",
+          "ipa": "iw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FEED"
+      ],
+      "history": "食物を与える活動→担当する生きた担い手。食物を得る人全般にはしない。",
+      "scene": "今日はその人が配膳を担当する。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FOODVESSEL",
+      "form": "chadjir",
+      "ipa": "tʃadʒiʐ",
+      "uncontractedIPA": "tʃadʒiʐ",
+      "meaning": "食物入れ",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FOOD + -iz",
+      "segments": [
+        {
+          "source": "v02:FOOD",
+          "notation": "FOOD",
+          "level": "inherited",
+          "ipa": "tʃadʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FOOD"
+      ],
+      "history": "食べ物を収める容器。食卓や運搬で繰り返し使う入れ物を呼び分ける。材料は限定しない。",
+      "scene": "食物入れを空にする。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "TREE",
+      "form": "jaag",
+      "ipa": "ʝaːg",
+      "uncontractedIPA": "ʝaːg",
+      "meaning": "木・幹を持つ樹木",
+      "domain": "草木",
+      "type": "語彙化候補",
+      "analysis": "J + -aak",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:aak",
+          "notation": "-aak",
+          "level": "low",
+          "ipa": "aːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:J"
+      ],
+      "history": "枝が生きた幹で繋がって一体に伸びる構造→木。切った枝を束ねた物とは慣用的に呼び分ける。",
+      "scene": "太い木を目印にする。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WOODLAND",
+      "form": "jaagag",
+      "ipa": "ʝaːgag",
+      "uncontractedIPA": "ʝaːgag",
+      "meaning": "林",
+      "domain": "草木",
+      "type": "語彙化候補",
+      "analysis": "TREE + -ak",
+      "segments": [
+        {
+          "source": "v02:TREE",
+          "notation": "TREE",
+          "level": "inherited",
+          "ipa": "ʝaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ak",
+          "notation": "-ak",
+          "level": "low",
+          "ipa": "ag",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:TREE"
+      ],
+      "history": "近接して生えている木のまとまり→林。置いた材木は指さない。",
+      "scene": "林の縁で実を探す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "TRUNK",
+      "form": "jaagazh",
+      "ipa": "ʝaːgaʒ",
+      "uncontractedIPA": "ʝaːgaʒ",
+      "meaning": "幹",
+      "domain": "草木",
+      "type": "語彙化候補",
+      "analysis": "TREE + -ash",
+      "segments": [
+        {
+          "source": "v02:TREE",
+          "notation": "TREE",
+          "level": "inherited",
+          "ipa": "ʝaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ash",
+          "notation": "-ash",
+          "level": "low",
+          "ipa": "aʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:TREE"
+      ],
+      "history": "木の枝を一体に支える骨格に相当する部分→地上に立つ幹。根まで含む一般的支持構造とは区別して定着。",
+      "scene": "幹に印を付ける。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SAP",
+      "form": "jaagow",
+      "ipa": "ʝaːgow",
+      "uncontractedIPA": "ʝaːgow",
+      "meaning": "樹液",
+      "domain": "草木",
+      "type": "規則派生＋慣用化",
+      "analysis": "TREE + -ov",
+      "segments": [
+        {
+          "source": "v02:TREE",
+          "notation": "TREE",
+          "level": "inherited",
+          "ipa": "ʝaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ov",
+          "notation": "-ov",
+          "level": "low",
+          "ipa": "ow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:TREE"
+      ],
+      "history": "木を発生源として切り口から外へ出る液→樹液。表面の雨水とは区別する。",
+      "scene": "切り口から樹液が出る。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FIREWOOD",
+      "form": "jaagaagy",
+      "ipa": "ʝaːgaːɟ",
+      "uncontractedIPA": "ʝaːgaːɟ",
+      "meaning": "薪",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "TREE + -aaj",
+      "segments": [
+        {
+          "source": "v02:TREE",
+          "notation": "TREE",
+          "level": "inherited",
+          "ipa": "ʝaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:aaj",
+          "notation": "-aaj",
+          "level": "low",
+          "ipa": "aːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:TREE",
+        "v01:FIRE"
+      ],
+      "history": "木から切り離した片→火を保つために持ち帰る木片→薪。建築材を含む木片全般にはしない。",
+      "scene": "乾いた薪を炉の近くに置く。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FIREWOODBUNDLE",
+      "form": "jaagaagyig",
+      "ipa": "ʝaːgaːɟig",
+      "uncontractedIPA": "ʝaːgaːɟig",
+      "meaning": "薪束",
+      "domain": "道と運搬",
+      "type": "規則派生",
+      "analysis": "FIREWOOD + -ik",
+      "segments": [
+        {
+          "source": "v02:FIREWOOD",
+          "notation": "FIREWOOD",
+          "level": "inherited",
+          "ipa": "ʝaːgaːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FIREWOOD"
+      ],
+      "history": "運搬で一単位に括った薪。散在する薪の集合でなく、持ち運べる束。",
+      "scene": "薪束を背負う。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SPLITWOOD",
+      "form": "jaagegy",
+      "ipa": "ʝaːgeɟ",
+      "uncontractedIPA": "ʝaːgeɟ",
+      "meaning": "木を割る",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "TREE + -ej",
+      "segments": [
+        {
+          "source": "v02:TREE",
+          "notation": "TREE",
+          "level": "inherited",
+          "ipa": "ʝaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ej",
+          "notation": "-ej",
+          "level": "low",
+          "ipa": "eɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:TREE"
+      ],
+      "history": "分割できる木を入力に取る。切り分ける・割る作業。植える意味にはしない。",
+      "scene": "長い木を割る。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SPLITWOODPRODUCT",
+      "form": "jaagegyogy",
+      "ipa": "ʝaːgeɟoɟ",
+      "uncontractedIPA": "ʝaːgeɟoɟ",
+      "meaning": "割り材",
+      "domain": "道具と仕事",
+      "type": "規則派生＋慣用化",
+      "analysis": "SPLITWOOD + -oj",
+      "segments": [
+        {
+          "source": "v02:SPLITWOOD",
+          "notation": "SPLITWOOD",
+          "level": "inherited",
+          "ipa": "ʝaːgeɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oj",
+          "notation": "-oj",
+          "level": "low",
+          "ipa": "oɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SPLITWOOD"
+      ],
+      "history": "木を割った作業の産物→細工・建築に使う割り材。薪との区別は用途に置く。",
+      "scene": "割り材を骨組みに使う。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "BRANCHBUNDLE",
+      "form": "jig",
+      "ipa": "ʝig",
+      "uncontractedIPA": "ʝig",
+      "meaning": "枝束",
+      "domain": "道と運搬",
+      "type": "規則派生",
+      "analysis": "J + -ik",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:J"
+      ],
+      "history": "採集して一単位に括った枝。人に渡す・運ぶ際の単位として使う。",
+      "scene": "枝束を入口に置く。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WOODCRAFT",
+      "form": "jor",
+      "ipa": "ʝoʐ",
+      "uncontractedIPA": "ʝoʐ",
+      "meaning": "木製品",
+      "domain": "道具と仕事",
+      "type": "規則派生＋語義拡張",
+      "analysis": "J + -oz",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oz",
+          "notation": "-oz",
+          "level": "low",
+          "ipa": "oʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:J"
+      ],
+      "history": "枝を加工材料とする用法→枝材・木材で作った物→木製品。道具・器などをまとめる材料別の呼称。",
+      "scene": "木製品を湿った場所から移す。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERWOOD",
+      "form": "jeeg",
+      "ipa": "ʝeːg",
+      "uncontractedIPA": "ʝeːg",
+      "meaning": "枝を拾い集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "J + -eek",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:J"
+      ],
+      "history": "枝を入力とする収集。焚き付けや細工の材料を拾って集める作業。",
+      "scene": "出発前に枝を拾い集める。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERGRASS",
+      "form": "keeg",
+      "ipa": "keːg",
+      "uncontractedIPA": "keːg",
+      "meaning": "草材を集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "K + -eek",
+      "segments": [
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:K"
+      ],
+      "history": "草を入力とする収集。葺き草・繊維材を集める作業。対象一般にはしない。",
+      "scene": "乾いた草材を集める。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERFRUIT",
+      "form": "cheeg",
+      "ipa": "tʃeːg",
+      "uncontractedIPA": "tʃeːg",
+      "meaning": "実を採り集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "CH + -eek",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:CH"
+      ],
+      "history": "果実を入力とする収集。枝から採る・落ちた実を拾う工程を含む。",
+      "scene": "帰るまでに実を採り集める。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERSTONE",
+      "form": "zeeg",
+      "ipa": "zeːg",
+      "uncontractedIPA": "zeːg",
+      "meaning": "石を拾い集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "Z + -eek",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:Z"
+      ],
+      "history": "炉・加工・通路に使える石を探して集める作業。",
+      "scene": "炉用の石を拾い集める。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "LEAF",
+      "form": "kat",
+      "ipa": "kat",
+      "uncontractedIPA": "kat",
+      "meaning": "葉",
+      "domain": "草木",
+      "type": "語彙化候補",
+      "analysis": "K + T",
+      "segments": [
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:K",
+        "v01:T"
+      ],
+      "history": "草の柔らかく平たい部分を肉に比べた呼称→ちぎって食べる・当てる・包む草の部分→葉一般。",
+      "scene": "大きな葉で食物を包む。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "LEAFBUNDLE",
+      "form": "katig",
+      "ipa": "katig",
+      "uncontractedIPA": "katig",
+      "meaning": "葉束",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "LEAF + -ik",
+      "segments": [
+        {
+          "source": "v02:LEAF",
+          "notation": "LEAF",
+          "level": "inherited",
+          "ipa": "kat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:LEAF"
+      ],
+      "history": "包みや食用に採った葉を一単位に重ねて束ねた物。葉の茂りとは区別。",
+      "scene": "葉束を客に渡す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "LEAFWRAP",
+      "form": "kator",
+      "ipa": "katoʐ",
+      "uncontractedIPA": "katoʐ",
+      "meaning": "葉包み",
+      "domain": "食事",
+      "type": "語彙化候補",
+      "analysis": "LEAF + -oz",
+      "segments": [
+        {
+          "source": "v02:LEAF",
+          "notation": "LEAF",
+          "level": "inherited",
+          "ipa": "kat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oz",
+          "notation": "-oz",
+          "level": "low",
+          "ipa": "oʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:LEAF"
+      ],
+      "history": "葉を材料として作る品のうち、折り重ねて食物を包む物が日常的で呼称が定着。葉製品全般ではない。",
+      "scene": "葉包みをほどく。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERLEAF",
+      "form": "kateeg",
+      "ipa": "kateːg",
+      "uncontractedIPA": "kateːg",
+      "meaning": "葉を摘み集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "LEAF + -eek",
+      "segments": [
+        {
+          "source": "v02:LEAF",
+          "notation": "LEAF",
+          "level": "inherited",
+          "ipa": "kat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:LEAF"
+      ],
+      "history": "包み葉や食べられる葉を収集対象にする日常作業。",
+      "scene": "包み用の葉を摘み集める。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GRAINGRASS",
+      "form": "chak",
+      "ipa": "tʃak",
+      "uncontractedIPA": "tʃak",
+      "meaning": "穀草・実を食用に採る草",
+      "domain": "草木",
+      "type": "語彙化候補",
+      "analysis": "CH + K",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:CH",
+        "v01:K"
+      ],
+      "history": "食べる実を採る草という呼び分け→実の採集を主目的に扱う草の種類。花の有無では分類しない。",
+      "scene": "この草の実は保存して食べる。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GRAIN",
+      "form": "kach",
+      "ipa": "katʃ",
+      "uncontractedIPA": "katʃ",
+      "meaning": "穀粒",
+      "domain": "食事",
+      "type": "語彙化候補",
+      "analysis": "K + CH",
+      "segments": [
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:K",
+        "v01:CH"
+      ],
+      "history": "草から採集する小さく保存できる実→穀粒。発芽用の種と食用の呼称を使い分ける。",
+      "scene": "穀粒を選り分ける。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GRAINBUNDLE",
+      "form": "chakig",
+      "ipa": "tʃakig",
+      "uncontractedIPA": "tʃakig",
+      "meaning": "穀草の束",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "GRAINGRASS + -ik",
+      "segments": [
+        {
+          "source": "v02:GRAINGRASS",
+          "notation": "GRAINGRASS",
+          "level": "inherited",
+          "ipa": "tʃak",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:GRAINGRASS"
+      ],
+      "history": "刈り取った穀草を運搬の一単位に括った束。穀粒だけのまとまりとは区別。",
+      "scene": "穀草の束を干す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GRAINVESSEL",
+      "form": "kachir",
+      "ipa": "katʃiʐ",
+      "uncontractedIPA": "katʃiʐ",
+      "meaning": "穀粒入れ",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "GRAIN + -iz",
+      "segments": [
+        {
+          "source": "v02:GRAIN",
+          "notation": "GRAIN",
+          "level": "inherited",
+          "ipa": "katʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:GRAIN"
+      ],
+      "history": "穀粒を保存して運ぶ入れ物。器の形状や材料は別の語で指定。",
+      "scene": "穀粒入れの口を塞ぐ。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "PORRIDGE",
+      "form": "kachadj",
+      "ipa": "katʃadʒ",
+      "uncontractedIPA": "katʃadʒ",
+      "meaning": "粥",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "GRAIN + -ach",
+      "segments": [
+        {
+          "source": "v02:GRAIN",
+          "notation": "GRAIN",
+          "level": "inherited",
+          "ipa": "katʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ach",
+          "notation": "-ach",
+          "level": "low",
+          "ipa": "adʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:GRAIN",
+        "v02:WATER",
+        "v01:FIRE"
+      ],
+      "history": "穀粒の食物のうち、水と加熱して柔らかくする日常食→粥。接辞だけで煮る工程が決まるわけではない。",
+      "scene": "粥を分ける。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FLATBREAD",
+      "form": "makach",
+      "ipa": "makatʃ",
+      "uncontractedIPA": "makatʃ",
+      "meaning": "焼き餅・薄焼きパン",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "M + GRAIN",
+      "segments": [
+        {
+          "source": "v01:M",
+          "notation": "m",
+          "level": "middle",
+          "ipa": "m",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v02:GRAIN",
+          "notation": "GRAIN",
+          "level": "inherited",
+          "ipa": "katʃ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:M",
+        "v02:GRAIN",
+        "v01:FLOUR",
+        "v02:WATER"
+      ],
+      "history": "炭火で焼く穀粒由来の生地→炭火の穀食→薄く焼いて持ち運ぶ食物。砕く・水で練る・焼く段階を置く。",
+      "scene": "旅に薄焼きパンを持つ。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FRUITFLESH",
+      "form": "chat",
+      "ipa": "tʃat",
+      "uncontractedIPA": "tʃat",
+      "meaning": "果肉",
+      "domain": "食事",
+      "type": "語彙化候補",
+      "analysis": "CH + T",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:CH",
+        "v01:T"
+      ],
+      "history": "実の食べられる柔らかな部分を肉と呼ぶ→果肉。種を残して食べる場面で必要な区別。",
+      "scene": "果肉から種を外す。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FRUITFLESHFOOD",
+      "form": "chatadj",
+      "ipa": "tʃatadʒ",
+      "uncontractedIPA": "tʃatadʒ",
+      "meaning": "果実粥・果肉の練り食",
+      "domain": "食事",
+      "type": "語彙化候補",
+      "analysis": "FRUITFLESH + -ach",
+      "segments": [
+        {
+          "source": "v02:FRUITFLESH",
+          "notation": "FRUITFLESH",
+          "level": "inherited",
+          "ipa": "tʃat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ach",
+          "notation": "-ach",
+          "level": "low",
+          "ipa": "adʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITFLESH"
+      ],
+      "history": "果肉を潰して用意する柔らかな食物→果実粥。果肉そのものと加工工程で区別。",
+      "scene": "幼い子に果実粥を与える。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "HARDSHELLFRUIT",
+      "form": "zach",
+      "ipa": "zatʃ",
+      "uncontractedIPA": "zatʃ",
+      "meaning": "堅果・殻を割って食べる実",
+      "domain": "食事",
+      "type": "語彙化候補",
+      "analysis": "Z + CH",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:Z",
+        "v01:CH"
+      ],
+      "history": "石のように硬い殻を割って中を食べる実→食材区分。実の中の硬い種だけを指す語とは区別。",
+      "scene": "堅果の殻を割る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "ROASTEDSEEDS",
+      "form": "cham",
+      "ipa": "tʃam",
+      "uncontractedIPA": "tʃam",
+      "meaning": "炒り種実",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "CH + M",
+      "segments": [
+        {
+          "source": "v01:CH",
+          "notation": "ch",
+          "level": "middle",
+          "ipa": "tʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:M",
+          "notation": "m",
+          "level": "middle",
+          "ipa": "m",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:CH",
+        "v01:M"
+      ],
+      "history": "炭火で乾いた種実を熱して食べる慣行→炭火の実→炒り種実。単に黒い実とはしない。",
+      "scene": "炒り種実を袋に入れる。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SEEDVESSEL",
+      "form": "chagyir",
+      "ipa": "tʃaɟiʐ",
+      "uncontractedIPA": "tʃaɟiʐ",
+      "meaning": "播種用の種入れ",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "old:SEED + -iz",
+      "segments": [
+        {
+          "source": "v01:SEED",
+          "notation": "ch-aj",
+          "level": "inherited",
+          "ipa": "tʃaɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:SEED"
+      ],
+      "history": "播くために残した種を別に保存する容器。穀粒入れとの区別は播種の用途。",
+      "scene": "種入れを湿らせない。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SPLITSTONE",
+      "form": "zegy",
+      "ipa": "zeɟ",
+      "uncontractedIPA": "zeɟ",
+      "meaning": "石を割る",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "Z + -ej",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ej",
+          "notation": "-ej",
+          "level": "low",
+          "ipa": "eɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:Z"
+      ],
+      "history": "分割できる石を入力に取る。炉石や加工する石を割る作業。",
+      "scene": "炉石の角を割る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STONETOOL",
+      "form": "zegyar",
+      "ipa": "zeɟaʐ",
+      "uncontractedIPA": "zeɟaʐ",
+      "meaning": "石割り槌",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "SPLITSTONE + -az",
+      "segments": [
+        {
+          "source": "v02:SPLITSTONE",
+          "notation": "SPLITSTONE",
+          "level": "inherited",
+          "ipa": "zeɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:az",
+          "notation": "-az",
+          "level": "low",
+          "ipa": "aʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SPLITSTONE"
+      ],
+      "history": "石を割る活動の手道具。材料が石だから自動的に槌にする旧案を避ける。",
+      "scene": "石割り槌を選ぶ。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SPLITSTONEPRODUCT",
+      "form": "zegyogy",
+      "ipa": "zeɟoɟ",
+      "uncontractedIPA": "zeɟoɟ",
+      "meaning": "割り石",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "SPLITSTONE + -oj",
+      "segments": [
+        {
+          "source": "v02:SPLITSTONE",
+          "notation": "SPLITSTONE",
+          "level": "inherited",
+          "ipa": "zeɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oj",
+          "notation": "-oj",
+          "level": "low",
+          "ipa": "oɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SPLITSTONE"
+      ],
+      "history": "石を割る作業の意図した産物。炉や構築に使う石で、不要な欠片と区別。",
+      "scene": "割り石を並べる。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STONEREMAINS",
+      "form": "zegyoogy",
+      "ipa": "zeɟoːɟ",
+      "uncontractedIPA": "zeɟoːɟ",
+      "meaning": "石くず",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "SPLITSTONE + -ooj",
+      "segments": [
+        {
+          "source": "v02:SPLITSTONE",
+          "notation": "SPLITSTONE",
+          "level": "inherited",
+          "ipa": "zeɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ooj",
+          "notation": "-ooj",
+          "level": "low",
+          "ipa": "oːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SPLITSTONE"
+      ],
+      "history": "石割り作業の不要な細片や残り。使うために得た割り石と呼び分ける。",
+      "scene": "石くずを通路から除く。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SPLITSTATION",
+      "form": "zegyaar",
+      "ipa": "zeɟaːʐ",
+      "uncontractedIPA": "zeɟaːʐ",
+      "meaning": "石割り台・設備",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "SPLITSTONE + -aaz",
+      "segments": [
+        {
+          "source": "v02:SPLITSTONE",
+          "notation": "SPLITSTONE",
+          "level": "inherited",
+          "ipa": "zeɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:aaz",
+          "notation": "-aaz",
+          "level": "low",
+          "ipa": "aːʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SPLITSTONE"
+      ],
+      "history": "石を安定して割れるように据えた設備。手道具とは持ち運ぶ用途が違う。",
+      "scene": "石割り台を動かさない。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STONECRAFT",
+      "form": "zor",
+      "ipa": "zoʐ",
+      "uncontractedIPA": "zoʐ",
+      "meaning": "石製品",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "Z + -oz",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oz",
+          "notation": "-oz",
+          "level": "low",
+          "ipa": "oʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:Z"
+      ],
+      "history": "石を材料として作った物。原石そのものとは区別する。",
+      "scene": "石製品を運ぶ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STONEPLATFORM",
+      "form": "zash",
+      "ipa": "zaʃ",
+      "uncontractedIPA": "zaʃ",
+      "meaning": "岩盤・露出した岩棚",
+      "domain": "土地",
+      "type": "語彙化候補",
+      "analysis": "Z + SH",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:SH",
+          "notation": "sh",
+          "level": "middle",
+          "ipa": "ʃ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:Z",
+        "v01:SH"
+      ],
+      "history": "骨のように一続きで重さを支える石の層→露出した岩盤・岩棚。石の任意の部分ではない。",
+      "scene": "岩棚で休む。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STRIKE",
+      "form": "zan",
+      "ipa": "zan",
+      "uncontractedIPA": "zan",
+      "meaning": "打つ・叩く",
+      "domain": "道具と仕事",
+      "type": "慣用動詞候補",
+      "analysis": "Z + N",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:N",
+          "notation": "n",
+          "level": "middle",
+          "ipa": "n",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:Z",
+        "v01:N"
+      ],
+      "history": "石を火打石に打ち付ける仕事の呼称→打ち付ける動作→他の物を叩く動詞。道具の組合せから行為名への換喩。",
+      "scene": "杭の頭を叩く。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STRIKETOOL",
+      "form": "zanar",
+      "ipa": "zanaʐ",
+      "uncontractedIPA": "zanaʐ",
+      "meaning": "叩く槌",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "STRIKE + -az",
+      "segments": [
+        {
+          "source": "v02:STRIKE",
+          "notation": "STRIKE",
+          "level": "inherited",
+          "ipa": "zan",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:az",
+          "notation": "-az",
+          "level": "low",
+          "ipa": "aʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:STRIKE"
+      ],
+      "history": "叩く活動の手道具。石割り専用の道具と用途の広さが違う。",
+      "scene": "槌で骨組みを直す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STRIKER",
+      "form": "zaniw",
+      "ipa": "zaniw",
+      "uncontractedIPA": "zaniw",
+      "meaning": "打撃作業をする人",
+      "domain": "共同生活",
+      "type": "規則派生",
+      "analysis": "STRIKE + -iv",
+      "segments": [
+        {
+          "source": "v02:STRIKE",
+          "notation": "STRIKE",
+          "level": "inherited",
+          "ipa": "zan",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iv",
+          "notation": "-iv",
+          "level": "low",
+          "ipa": "iw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:STRIKE"
+      ],
+      "history": "杭打ちなどの打撃活動を担当する人。特定の職業とはまだしない。",
+      "scene": "一人が杭を支え、一人が打つ。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WHITTLE",
+      "form": "jan",
+      "ipa": "ʝan",
+      "uncontractedIPA": "ʝan",
+      "meaning": "削る・枝を削る",
+      "domain": "道具と仕事",
+      "type": "慣用動詞候補",
+      "analysis": "J + N",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:N",
+          "notation": "n",
+          "level": "middle",
+          "ipa": "n",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:J",
+        "v01:N"
+      ],
+      "history": "枝を火打石の刃で少しずつ削る慣行→枝と火打石の作業名→削る動詞。",
+      "scene": "枝の先を削る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WHITTLETOOL",
+      "form": "janar",
+      "ipa": "ʝanaʐ",
+      "uncontractedIPA": "ʝanaʐ",
+      "meaning": "削り小刀",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "WHITTLE + -az",
+      "segments": [
+        {
+          "source": "v02:WHITTLE",
+          "notation": "WHITTLE",
+          "level": "inherited",
+          "ipa": "ʝan",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:az",
+          "notation": "-az",
+          "level": "low",
+          "ipa": "aʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WHITTLE"
+      ],
+      "history": "削る活動の手道具。一般の刃と、繰り返し削る作業向けの握れる刃を区別。",
+      "scene": "削り小刀の刃を研ぐ。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WHITTLEPRODUCT",
+      "form": "janogy",
+      "ipa": "ʝanoɟ",
+      "uncontractedIPA": "ʝanoɟ",
+      "meaning": "削り材",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "WHITTLE + -oj",
+      "segments": [
+        {
+          "source": "v02:WHITTLE",
+          "notation": "WHITTLE",
+          "level": "inherited",
+          "ipa": "ʝan",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oj",
+          "notation": "-oj",
+          "level": "low",
+          "ipa": "oɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WHITTLE"
+      ],
+      "history": "削る作業で狙って得た部材。削りくずではない。",
+      "scene": "削り材を道具の柄にする。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SHAVINGS",
+      "form": "janoogy",
+      "ipa": "ʝanoːɟ",
+      "uncontractedIPA": "ʝanoːɟ",
+      "meaning": "削りくず",
+      "domain": "火と調理",
+      "type": "規則派生",
+      "analysis": "WHITTLE + -ooj",
+      "segments": [
+        {
+          "source": "v02:WHITTLE",
+          "notation": "WHITTLE",
+          "level": "inherited",
+          "ipa": "ʝan",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ooj",
+          "notation": "-ooj",
+          "level": "low",
+          "ipa": "oːɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WHITTLE"
+      ],
+      "history": "削る作業で残る薄い木片→削りくず。焚き付けに再利用する習慣を置く。",
+      "scene": "削りくずを乾かして残す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "REAP",
+      "form": "nak",
+      "ipa": "nak",
+      "uncontractedIPA": "nak",
+      "meaning": "草を刈る",
+      "domain": "採集",
+      "type": "慣用動詞候補",
+      "analysis": "N + K",
+      "segments": [
+        {
+          "source": "v01:N",
+          "notation": "n",
+          "level": "middle",
+          "ipa": "n",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:N",
+        "v01:K"
+      ],
+      "history": "刃で草を切り取る日常仕事→刃と草の呼称→刈る。草を割り裂く処理とは区別。",
+      "scene": "葺き草を刈る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "REAPTOOL",
+      "form": "nakar",
+      "ipa": "nakaʐ",
+      "uncontractedIPA": "nakaʐ",
+      "meaning": "草刈り刃",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "REAP + -az",
+      "segments": [
+        {
+          "source": "v02:REAP",
+          "notation": "REAP",
+          "level": "inherited",
+          "ipa": "nak",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:az",
+          "notation": "-az",
+          "level": "low",
+          "ipa": "aʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:REAP"
+      ],
+      "history": "草を刈る活動の手道具。曲がった鎌を前提にせず、刈り取りに適する刃。",
+      "scene": "草刈り刃を替える。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "REAPER",
+      "form": "nakiw",
+      "ipa": "nakiw",
+      "uncontractedIPA": "nakiw",
+      "meaning": "草を刈る人",
+      "domain": "共同生活",
+      "type": "規則派生",
+      "analysis": "REAP + -iv",
+      "segments": [
+        {
+          "source": "v02:REAP",
+          "notation": "REAP",
+          "level": "inherited",
+          "ipa": "nak",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iv",
+          "notation": "-iv",
+          "level": "low",
+          "ipa": "iw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:REAP"
+      ],
+      "history": "刈り取り活動の担い手。共同作業の分担を話す場面で使う。",
+      "scene": "刈り手は草地へ行く。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "CARRYPOLE",
+      "form": "jat",
+      "ipa": "ʝat",
+      "uncontractedIPA": "ʝat",
+      "meaning": "担ぎ棒；担ぐ",
+      "domain": "道と運搬",
+      "type": "名詞・慣用動詞の多義候補",
+      "analysis": "J + T",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:J",
+        "v01:T"
+      ],
+      "history": "獲物の肉を掛けて二人で運ぶ枝→担ぎ棒→棒で担ぐ作業。名詞から慣用的な零派生で動詞用法を持つ案。",
+      "scene": "二人で獲物を担ぐ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "CARRIER",
+      "form": "jatiw",
+      "ipa": "ʝatiw",
+      "uncontractedIPA": "ʝatiw",
+      "meaning": "担ぎ手",
+      "domain": "共同生活",
+      "type": "規則派生",
+      "analysis": "CARRYPOLE + -iv",
+      "segments": [
+        {
+          "source": "v02:CARRYPOLE",
+          "notation": "CARRYPOLE",
+          "level": "inherited",
+          "ipa": "ʝat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iv",
+          "notation": "-iv",
+          "level": "low",
+          "ipa": "iw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:CARRYPOLE"
+      ],
+      "history": "担ぎ棒の名詞義でなく、担ぐ活動を入力にして担い手を作る。",
+      "scene": "前の担ぎ手が交代する。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "CUTBOARD",
+      "form": "zat",
+      "ipa": "zat",
+      "uncontractedIPA": "zat",
+      "meaning": "肉切り台",
+      "domain": "火と調理",
+      "type": "語彙化候補",
+      "analysis": "Z + T",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:Z",
+        "v01:T"
+      ],
+      "history": "肉を載せて切り分ける平たい石→肉切り台。解体作業での反復用途を語源に置く。",
+      "scene": "肉切り台を洗う。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "STAKE",
+      "form": "jash",
+      "ipa": "ʝaʃ",
+      "uncontractedIPA": "ʝaʃ",
+      "meaning": "杭",
+      "domain": "住まい",
+      "type": "語彙化候補",
+      "analysis": "J + SH",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:SH",
+          "notation": "sh",
+          "level": "middle",
+          "ipa": "ʃ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:J",
+        "v01:SH"
+      ],
+      "history": "骨に似た硬い芯として枝を使う→先を削り地面に打って立てる棒→杭。",
+      "scene": "杭を深く打つ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "AWL",
+      "form": "shan",
+      "ipa": "ʃan",
+      "uncontractedIPA": "ʃan",
+      "meaning": "錐・穿孔用の骨尖",
+      "domain": "道具と仕事",
+      "type": "語彙化候補",
+      "analysis": "SH + N",
+      "segments": [
+        {
+          "source": "v01:SH",
+          "notation": "sh",
+          "level": "middle",
+          "ipa": "ʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:N",
+          "notation": "n",
+          "level": "middle",
+          "ipa": "n",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:SH",
+        "v01:N"
+      ],
+      "history": "火打石で尖らせた骨→押して穴を開ける骨の道具→錐。矢じりや刃とは用途で呼び分ける。",
+      "scene": "錐で布端に穴を開ける。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "NEEDLE",
+      "form": "shak",
+      "ipa": "ʃak",
+      "uncontractedIPA": "ʃak",
+      "meaning": "縫い針",
+      "domain": "繊維と衣類",
+      "type": "語彙化候補",
+      "analysis": "SH + K",
+      "segments": [
+        {
+          "source": "v01:SH",
+          "notation": "sh",
+          "level": "middle",
+          "ipa": "ʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:SH",
+        "v01:K",
+        "v01:FIBER"
+      ],
+      "history": "繊維を通して使う穴のある細い骨→骨と草繊維の道具→縫い針。押して穴を開けるだけの錐と区別。",
+      "scene": "縫い針に繊維を通す。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "THREADBUNDLE",
+      "form": "kagyig",
+      "ipa": "kaɟig",
+      "uncontractedIPA": "kaɟig",
+      "meaning": "繊維束",
+      "domain": "繊維と衣類",
+      "type": "規則派生",
+      "analysis": "old:FIBER + -ik",
+      "segments": [
+        {
+          "source": "v01:FIBER",
+          "notation": "k-aj",
+          "level": "inherited",
+          "ipa": "kaɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:FIBER"
+      ],
+      "history": "紡ぎや細工に使う繊維を一単位へ揃えた束。撚ってある紐と区別。",
+      "scene": "繊維束から一本取り出す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FABRIC",
+      "form": "kagyaag",
+      "ipa": "kaɟaːg",
+      "uncontractedIPA": "kaɟaːg",
+      "meaning": "織地・布",
+      "domain": "繊維と衣類",
+      "type": "語彙化候補",
+      "analysis": "old:FIBER + -aak",
+      "segments": [
+        {
+          "source": "v01:FIBER",
+          "notation": "k-aj",
+          "level": "inherited",
+          "ipa": "kaɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:aak",
+          "notation": "-aak",
+          "level": "low",
+          "ipa": "aːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:FIBER"
+      ],
+      "history": "繊維を縦横に交差させて平面に繋いだ構造→織地。紐のまとまりとは製作慣行で呼び分ける。",
+      "scene": "布を広げて干す。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SACK",
+      "form": "kagyaagor",
+      "ipa": "kaɟaːgoʐ",
+      "uncontractedIPA": "kaɟaːgoʐ",
+      "meaning": "布袋",
+      "domain": "繊維と衣類",
+      "type": "語彙化候補",
+      "analysis": "FABRIC + -oz",
+      "segments": [
+        {
+          "source": "v02:FABRIC",
+          "notation": "FABRIC",
+          "level": "inherited",
+          "ipa": "kaɟaːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:oz",
+          "notation": "-oz",
+          "level": "low",
+          "ipa": "oʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FABRIC"
+      ],
+      "history": "布を加工した製品のうち、折って縫った運搬袋が日常的な一種として呼称を占める→布袋。布製品全般にはしない。",
+      "scene": "布袋に穀粒を入れる。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GARMENT",
+      "form": "takagyaag",
+      "ipa": "takaɟaːg",
+      "uncontractedIPA": "takaɟaːg",
+      "meaning": "衣・身に着ける布",
+      "domain": "繊維と衣類",
+      "type": "語彙化候補",
+      "analysis": "T + FABRIC",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v02:FABRIC",
+          "notation": "FABRIC",
+          "level": "inherited",
+          "ipa": "kaɟaːg",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:T",
+        "v02:FABRIC"
+      ],
+      "history": "肉体に当てて覆う織地→身に着ける衣。食物の包み布とは用途で区別。",
+      "scene": "濡れた衣を替える。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "MAT",
+      "form": "jak",
+      "ipa": "ʝak",
+      "uncontractedIPA": "ʝak",
+      "meaning": "敷き物・草の寝敷き",
+      "domain": "住まい",
+      "type": "語彙化候補",
+      "analysis": "J + K",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:J",
+        "v01:K"
+      ],
+      "history": "細枝を芯にして草を並べた平たい物→地面に敷く寝敷き。屋根の草葺きとは用途が違う。",
+      "scene": "寝敷きを乾いた場所に敷く。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "BED",
+      "form": "jakvat",
+      "ipa": "ʝakvat",
+      "uncontractedIPA": "ʝakavat",
+      "meaning": "寝床；横たわる",
+      "domain": "住まい",
+      "type": "名詞・慣用動詞の多義候補",
+      "analysis": "MAT + old:BODY",
+      "segments": [
+        {
+          "source": "v02:MAT",
+          "notation": "MAT",
+          "level": "inherited",
+          "ipa": "ʝak",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:BODY",
+          "notation": "v-t",
+          "level": "inherited",
+          "ipa": "vat",
+          "linkBefore": "a",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:MAT",
+        "v01:BODY"
+      ],
+      "history": "寝敷きに身体を置く場所→寝床→寝床へ身を横たえる動詞用法。睡眠状態まで自動的には含めない。",
+      "scene": "寝床で体を休める。",
+      "syllables": 2,
+      "soundHistory": [
+        {
+          "rule": "C1",
+          "description": "古い名詞複合の境界にある無強勢接続aの脱落。接辞母音には適用しない。"
+        }
+      ],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SCREEN",
+      "form": "kaj",
+      "ipa": "kaʝ",
+      "uncontractedIPA": "kaʝ",
+      "meaning": "枝草の壁・目隠し",
+      "domain": "住まい",
+      "type": "語彙化候補",
+      "analysis": "K + J",
+      "segments": [
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:K",
+        "v01:J"
+      ],
+      "history": "立てた枝に草を詰めて風や視線を遮る構造→壁・目隠し。単なる草の付いた枝ではない。",
+      "scene": "壁の隙間へ草を足す。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SUPPORTBRANCH",
+      "form": "jezh",
+      "ipa": "ʝeʒ",
+      "uncontractedIPA": "ʝeʒ",
+      "meaning": "枝を支える",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "J + -esh",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:esh",
+          "notation": "-esh",
+          "level": "low",
+          "ipa": "eʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:J"
+      ],
+      "history": "支えられる枝を入力にする動詞。建築や実の重い枝を保持する作業。",
+      "scene": "垂れた枝を支える。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "PROP",
+      "form": "jezhar",
+      "ipa": "ʝeʒaʐ",
+      "uncontractedIPA": "ʝeʒaʐ",
+      "meaning": "枝を支える支柱",
+      "domain": "道具と仕事",
+      "type": "規則派生",
+      "analysis": "SUPPORTBRANCH + -az",
+      "segments": [
+        {
+          "source": "v02:SUPPORTBRANCH",
+          "notation": "SUPPORTBRANCH",
+          "level": "inherited",
+          "ipa": "ʝeʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:az",
+          "notation": "-az",
+          "level": "low",
+          "ipa": "aʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:SUPPORTBRANCH"
+      ],
+      "history": "枝を支える活動の手道具・移せる支え→支柱。固定構造全体とは区別。",
+      "scene": "支柱を継ぎ目に当てる。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "PATH",
+      "form": "zaj",
+      "ipa": "zaʝ",
+      "uncontractedIPA": "zaʝ",
+      "meaning": "道；道を辿って進む",
+      "domain": "道と運搬",
+      "type": "名詞・慣用動詞の多義候補",
+      "analysis": "Z + J",
+      "segments": [
+        {
+          "source": "v01:Z",
+          "notation": "z",
+          "level": "middle",
+          "ipa": "z",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:Z",
+        "v01:J"
+      ],
+      "history": "枝のように細長く、石を置いて歩けるようにした筋→道→踏み道一般。慣用的に道を辿る動詞用法を持つ案。",
+      "scene": "水場への道を辿る。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SIDEPATH",
+      "form": "zajigy",
+      "ipa": "zaʝiɟ",
+      "uncontractedIPA": "zaʝiɟ",
+      "meaning": "脇道",
+      "domain": "道と運搬",
+      "type": "規則派生",
+      "analysis": "PATH + -ij",
+      "segments": [
+        {
+          "source": "v02:PATH",
+          "notation": "PATH",
+          "level": "inherited",
+          "ipa": "zaʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ij",
+          "notation": "-ij",
+          "level": "low",
+          "ipa": "iɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:PATH"
+      ],
+      "history": "主な道から分かれる支線。分岐地点でなく、そこから続く道を指す。",
+      "scene": "脇道へ入る。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "JUNCTION",
+      "form": "jal",
+      "ipa": "ʝal",
+      "uncontractedIPA": "ʝal",
+      "meaning": "分岐点",
+      "domain": "道と運搬",
+      "type": "語彙化候補",
+      "analysis": "J + L",
+      "segments": [
+        {
+          "source": "v01:J",
+          "notation": "j",
+          "level": "middle",
+          "ipa": "ʝ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:L",
+          "notation": "l",
+          "level": "middle",
+          "ipa": "l",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:J",
+        "v01:L",
+        "v02:PATH"
+      ],
+      "history": "枝分かれにある開いた空間→道が枝状に分かれる空所→分岐点。脇道そのものと区別。",
+      "scene": "分岐点で待つ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "BODYGROUP",
+      "form": "vatag",
+      "ipa": "vatag",
+      "uncontractedIPA": "vatag",
+      "meaning": "群れ・連れ立つ一団",
+      "domain": "共同生活",
+      "type": "規則派生＋慣用化",
+      "analysis": "old:BODY + -ak",
+      "segments": [
+        {
+          "source": "v01:BODY",
+          "notation": "v-t",
+          "level": "inherited",
+          "ipa": "vat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ak",
+          "notation": "-ak",
+          "level": "low",
+          "ipa": "ag",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:BODY"
+      ],
+      "history": "近接して動く身体のまとまり→群れ。人にも獲物にも使い、血縁を条件にしない。",
+      "scene": "一団で林へ向かう。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "MEATFOOD",
+      "form": "tadj",
+      "ipa": "tadʒ",
+      "uncontractedIPA": "tadʒ",
+      "meaning": "肉を主材にした食物",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "T + -ach",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ach",
+          "notation": "-ach",
+          "level": "low",
+          "ipa": "adʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:T"
+      ],
+      "history": "肉を主材料として用意した食物という分類。焼く・燻す等の工程は別に指定する。",
+      "scene": "肉の食物と粥を分けて置く。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "EATMEAT",
+      "form": "tedj",
+      "ipa": "tedʒ",
+      "uncontractedIPA": "tedʒ",
+      "meaning": "肉を食べる",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "T + -ech",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ech",
+          "notation": "-ech",
+          "level": "low",
+          "ipa": "edʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:T"
+      ],
+      "history": "肉を入力に取る摂食。解体する・配るとは区別。",
+      "scene": "残った肉を食べる。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GIVEMEAT",
+      "form": "teedj",
+      "ipa": "teːdʒ",
+      "uncontractedIPA": "teːdʒ",
+      "meaning": "肉を食物として与える",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "T + -eech",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eech",
+          "notation": "-eech",
+          "level": "low",
+          "ipa": "eːdʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:T"
+      ],
+      "history": "肉を食物として受け手へ与える。単なる所有の譲渡とは区別。",
+      "scene": "留守の人にも肉を与える。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "MEATVESSEL",
+      "form": "tir",
+      "ipa": "tiʐ",
+      "uncontractedIPA": "tiʐ",
+      "meaning": "肉入れ",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "T + -iz",
+      "segments": [
+        {
+          "source": "v01:T",
+          "notation": "t",
+          "level": "middle",
+          "ipa": "t",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:T"
+      ],
+      "history": "切り分けた肉を運ぶ・置く容器。材料や蓋の有無は指定しない。",
+      "scene": "肉入れを解体場所へ持つ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FLOWWATER",
+      "form": "lamoogew",
+      "ipa": "lamoːgew",
+      "uncontractedIPA": "lamoːgew",
+      "meaning": "水が流れる",
+      "domain": "水と天候",
+      "type": "規則派生",
+      "analysis": "WATER + -ev",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ev",
+          "notation": "-ev",
+          "level": "low",
+          "ipa": "ew",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "流れる物質として水を入力に取る。小川という場所名にはしない。",
+      "scene": "雨の後は水が流れる。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "POURWATER",
+      "form": "lamoogeew",
+      "ipa": "lamoːgeːw",
+      "uncontractedIPA": "lamoːgeːw",
+      "meaning": "水を流す・注ぐ",
+      "domain": "水と天候",
+      "type": "規則派生",
+      "analysis": "WATER + -eev",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eev",
+          "notation": "-eev",
+          "level": "low",
+          "ipa": "eːw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "水を外へ流す動作。運搬や摂取は含めない。",
+      "scene": "器から水を注ぐ。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WATERVESSEL",
+      "form": "lamoogir",
+      "ipa": "lamoːgiʐ",
+      "uncontractedIPA": "lamoːgiʐ",
+      "meaning": "水入れ・水容器",
+      "domain": "水と天候",
+      "type": "規則派生",
+      "analysis": "WATER + -iz",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "水を収めて持ち運ぶ器。防水性を持つ器の材料・製法は世界設定として別途検討する。",
+      "scene": "水入れを空にする。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "WETLAND",
+      "form": "lamoogak",
+      "ipa": "lamoːgak",
+      "uncontractedIPA": "lamoːgak",
+      "meaning": "湿地・水の溜まる草地",
+      "domain": "土地",
+      "type": "語彙化候補",
+      "analysis": "WATER + K",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:K",
+          "notation": "k",
+          "level": "middle",
+          "ipa": "k",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v02:WATER",
+        "v01:K"
+      ],
+      "history": "水に浸る草の生える一帯→歩くと足を取られる草地→湿地。一滴水が付いた草とは区別。",
+      "scene": "湿地を回って進む。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FLOWBLOOD",
+      "form": "vew",
+      "ipa": "vew",
+      "uncontractedIPA": "vew",
+      "meaning": "血が流れる",
+      "domain": "身体",
+      "type": "規則派生",
+      "analysis": "V + -ev",
+      "segments": [
+        {
+          "source": "v01:V",
+          "notation": "v",
+          "level": "middle",
+          "ipa": "v",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ev",
+          "notation": "-ev",
+          "level": "low",
+          "ipa": "ew",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:V"
+      ],
+      "history": "流れる物質として血を入力に取る。身体外への流出は文脈で指定する。",
+      "scene": "血が流れて止まらない。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "MAKEBLOODFLOW",
+      "form": "veew",
+      "ipa": "veːw",
+      "uncontractedIPA": "veːw",
+      "meaning": "血を流出させる",
+      "domain": "身体",
+      "type": "規則派生",
+      "analysis": "V + -eev",
+      "segments": [
+        {
+          "source": "v01:V",
+          "notation": "v",
+          "level": "middle",
+          "ipa": "v",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eev",
+          "notation": "-eev",
+          "level": "low",
+          "ipa": "eːw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:V"
+      ],
+      "history": "血を外へ流す動作。殺す一般の意味は含めない。",
+      "scene": "解体で血を流出させる。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SCAB",
+      "form": "shav",
+      "ipa": "ʃav",
+      "uncontractedIPA": "ʃav",
+      "meaning": "傷のかさぶた",
+      "domain": "身体",
+      "type": "語彙化候補",
+      "analysis": "SH + V",
+      "segments": [
+        {
+          "source": "v01:SH",
+          "notation": "sh",
+          "level": "middle",
+          "ipa": "ʃ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v01:V",
+          "notation": "v",
+          "level": "middle",
+          "ipa": "v",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:SH",
+        "v01:V",
+        "v01:CLOT"
+      ],
+      "history": "血が固まり骨のような硬い外側の覆いを作る→かさぶた。凝血と部位・形状で区別。",
+      "scene": "かさぶたを剥がさない。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "DRESSINGLEAF",
+      "form": "vakat",
+      "ipa": "vakat",
+      "uncontractedIPA": "vakat",
+      "meaning": "傷に当てる葉",
+      "domain": "身体",
+      "type": "語彙化候補",
+      "analysis": "V + LEAF",
+      "segments": [
+        {
+          "source": "v01:V",
+          "notation": "v",
+          "level": "middle",
+          "ipa": "v",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "v02:LEAF",
+          "notation": "LEAF",
+          "level": "inherited",
+          "ipa": "kat",
+          "linkBefore": "a",
+          "surfaceLinkBefore": "a"
+        }
+      ],
+      "parents": [
+        "v01:V",
+        "v02:LEAF"
+      ],
+      "history": "出血部に当てて押さえるために使う葉→当て葉。薬効は設定しない。",
+      "scene": "当て葉を替える。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FLOWERBUNDLE",
+      "form": "thig",
+      "ipa": "θig",
+      "uncontractedIPA": "θig",
+      "meaning": "花を束ねた一単位",
+      "domain": "共同生活",
+      "type": "規則派生",
+      "analysis": "TH + -ik",
+      "segments": [
+        {
+          "source": "v01:TH",
+          "notation": "th",
+          "level": "middle",
+          "ipa": "θ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ik",
+          "notation": "-ik",
+          "level": "low",
+          "ipa": "ig",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:TH"
+      ],
+      "history": "摘んだ花を一束として手渡す単位。野に生える花のまとまりと区別。",
+      "scene": "一束の花を訪問先へ持つ。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GATHERFLOWER",
+      "form": "theeg",
+      "ipa": "θeːg",
+      "uncontractedIPA": "θeːg",
+      "meaning": "花を摘み集める",
+      "domain": "採集",
+      "type": "規則派生",
+      "analysis": "TH + -eek",
+      "segments": [
+        {
+          "source": "v01:TH",
+          "notation": "th",
+          "level": "middle",
+          "ipa": "θ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eek",
+          "notation": "-eek",
+          "level": "low",
+          "ipa": "eːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:TH"
+      ],
+      "history": "花を収集対象にする。贈り物や香りのために摘む作業。",
+      "scene": "訪問前に花を摘み集める。",
+      "syllables": 1,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "SCENTVESSEL",
+      "form": "thowir",
+      "ipa": "θowiʐ",
+      "uncontractedIPA": "θowiʐ",
+      "meaning": "香りを留める小袋・器",
+      "domain": "住まい",
+      "type": "換喩を含む候補",
+      "analysis": "old:SCENT + -iz",
+      "segments": [
+        {
+          "source": "v01:SCENT",
+          "notation": "th-ov",
+          "level": "inherited",
+          "ipa": "θow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:SCENT"
+      ],
+      "history": "香りを出す花などを入れる器という用法→香り入れ。空の匂いそのものを詰める意味ではない。",
+      "scene": "寝床に香り入れを置く。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "DROP",
+      "form": "lamoogy",
+      "ipa": "lamoːɟ",
+      "uncontractedIPA": "lamowaɟ",
+      "meaning": "雨粒・滴",
+      "domain": "水と天候",
+      "type": "語彙化候補",
+      "analysis": "old:DROP",
+      "segments": [
+        {
+          "source": "v01:DROP",
+          "notation": "lamov-aj",
+          "level": "inherited",
+          "ipa": "lamowaɟ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v01:DROP"
+      ],
+      "history": "雨の一粒→滴という旧系譜を保持。水と同じW1で/lamowaɟ/→/lamoaɟ/→/lamoːɟ/。長母音を保って読む。",
+      "scene": "滴が屋根の端から落ちる。",
+      "syllables": 2,
+      "soundHistory": [
+        {
+          "rule": "W1",
+          "from": "lamowaɟ",
+          "steps": [
+            "lamoaɟ",
+            "lamoːɟ"
+          ]
+        }
+      ],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:DROP"
+      ]
+    },
+    {
+      "id": "STREAM",
+      "form": "lamoogow",
+      "ipa": "lamoːgow",
+      "uncontractedIPA": "lamoːgow",
+      "meaning": "小川・水の流れ",
+      "domain": "土地",
+      "type": "語彙化候補",
+      "analysis": "WATER + -ov",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ov",
+          "notation": "-ov",
+          "level": "low",
+          "ipa": "ow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "水場から流れ出る水→地表に続く水の流れ→小川。流れの運動と水路の場所を慣用的に呼ぶ。",
+      "scene": "小川に沿って歩く。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:STREAM"
+      ]
+    },
+    {
+      "id": "FRUITJUICE",
+      "form": "chatow",
+      "ipa": "tʃatow",
+      "uncontractedIPA": "tʃatow",
+      "meaning": "果汁",
+      "domain": "食事",
+      "type": "規則派生＋慣用化",
+      "analysis": "FRUITFLESH + -ov",
+      "segments": [
+        {
+          "source": "v02:FRUITFLESH",
+          "notation": "FRUITFLESH",
+          "level": "inherited",
+          "ipa": "tʃat",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ov",
+          "notation": "-ov",
+          "level": "low",
+          "ipa": "ow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITFLESH"
+      ],
+      "history": "果肉を発生源として外へ出る液→果汁。水で薄めた飲み物全般にはしない。",
+      "scene": "果汁を器に溜める。",
+      "syllables": 2,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "DRINK",
+      "form": "lamoogidj",
+      "ipa": "lamoːgidʒ",
+      "uncontractedIPA": "lamoːgidʒ",
+      "meaning": "水を飲む；飲む",
+      "domain": "食事",
+      "type": "規則派生＋慣用化",
+      "analysis": "WATER + -ich",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ich",
+          "notation": "-ich",
+          "level": "low",
+          "ipa": "idʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "液体摂取の接辞案-ichを水へ付ける。水を口へ取り入れる日常動詞→文脈で他の飲料も含む。",
+      "scene": "出発前に水を飲む。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": [
+        "v01:DRINK"
+      ]
+    },
+    {
+      "id": "DRINKJUICE",
+      "form": "chatowidj",
+      "ipa": "tʃatowidʒ",
+      "uncontractedIPA": "tʃatowidʒ",
+      "meaning": "果汁を飲む",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FRUITJUICE + -ich",
+      "segments": [
+        {
+          "source": "v02:FRUITJUICE",
+          "notation": "FRUITJUICE",
+          "level": "inherited",
+          "ipa": "tʃatow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ich",
+          "notation": "-ich",
+          "level": "low",
+          "ipa": "idʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITJUICE"
+      ],
+      "history": "口へ取り入れる液体として果汁を入力にする。果肉を食べる動詞と区別。",
+      "scene": "果汁を少し飲む。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "GIVEWATER",
+      "form": "lamoogiidj",
+      "ipa": "lamoːgiːdʒ",
+      "uncontractedIPA": "lamoːgiːdʒ",
+      "meaning": "水を飲ませる",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "WATER + -iich",
+      "segments": [
+        {
+          "source": "v02:WATER",
+          "notation": "WATER",
+          "level": "inherited",
+          "ipa": "lamoːg",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iich",
+          "notation": "-iich",
+          "level": "low",
+          "ipa": "iːdʒ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:WATER"
+      ],
+      "history": "水を液体の飲料として他者へ与える。器に注ぐだけの動詞とは区別する。",
+      "scene": "疲れた人に水を飲ませる。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "JUICEVESSEL",
+      "form": "chatowir",
+      "ipa": "tʃatowiʐ",
+      "uncontractedIPA": "tʃatowiʐ",
+      "meaning": "果汁入れ",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FRUITJUICE + -iz",
+      "segments": [
+        {
+          "source": "v02:FRUITJUICE",
+          "notation": "FRUITJUICE",
+          "level": "inherited",
+          "ipa": "tʃatow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:iz",
+          "notation": "-iz",
+          "level": "low",
+          "ipa": "iʐ",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITJUICE"
+      ],
+      "history": "果汁を受けて溜める容器。果肉を運ぶ籠ではない。",
+      "scene": "果汁入れを洗う。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "FLOWJUICE",
+      "form": "chatowew",
+      "ipa": "tʃatowew",
+      "uncontractedIPA": "tʃatowew",
+      "meaning": "果汁が流れる",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FRUITJUICE + -ev",
+      "segments": [
+        {
+          "source": "v02:FRUITJUICE",
+          "notation": "FRUITJUICE",
+          "level": "inherited",
+          "ipa": "tʃatow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:ev",
+          "notation": "-ev",
+          "level": "low",
+          "ipa": "ew",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITJUICE"
+      ],
+      "history": "流れる物質として果汁を入力にする。摂食とは区別。",
+      "scene": "切れ目から果汁が流れる。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    },
+    {
+      "id": "POURJUICE",
+      "form": "chatoweew",
+      "ipa": "tʃatoweːw",
+      "uncontractedIPA": "tʃatoweːw",
+      "meaning": "果汁を注ぐ",
+      "domain": "食事",
+      "type": "規則派生",
+      "analysis": "FRUITJUICE + -eev",
+      "segments": [
+        {
+          "source": "v02:FRUITJUICE",
+          "notation": "FRUITJUICE",
+          "level": "inherited",
+          "ipa": "tʃatow",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        },
+        {
+          "source": "affix:eev",
+          "notation": "-eev",
+          "level": "low",
+          "ipa": "eːw",
+          "linkBefore": "",
+          "surfaceLinkBefore": ""
+        }
+      ],
+      "parents": [
+        "v02:FRUITJUICE"
+      ],
+      "history": "果汁を外へ流す動作。潰して搾ることまで含めない。",
+      "scene": "果汁を小さな器に注ぐ。",
+      "syllables": 3,
+      "soundHistory": [],
+      "status": "試作・未採用",
+      "supersedes": []
+    }
+  ]
+}

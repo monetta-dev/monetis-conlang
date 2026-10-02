@@ -1,0 +1,1093 @@
+{
+  "title": "生活から伸ばす語彙 — 試作02",
+  "date": "2026-10-02",
+  "status": "未採用",
+  "entries": [
+    {
+      "id": "SH",
+      "form": "sha",
+      "ipa": "ʃa",
+      "meaning": "骨",
+      "parents": [],
+      "structure": "sh",
+      "history": "白→骨。READMEの原始語根。",
+      "use": "解体で骨を外す。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "M",
+      "form": "m",
+      "ipa": "m̩",
+      "meaning": "木炭",
+      "parents": [],
+      "structure": "m",
+      "history": "黒→木炭。READMEの原始語根。",
+      "use": "翌朝のために炭を残す。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "V",
+      "form": "va",
+      "ipa": "va",
+      "meaning": "血",
+      "parents": [],
+      "structure": "v",
+      "history": "赤→血。READMEの原始語根。",
+      "use": "傷から血が出た。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "CH",
+      "form": "cha",
+      "ipa": "tʃa",
+      "meaning": "果実",
+      "parents": [],
+      "structure": "ch",
+      "history": "黄→果実。READMEの原始語根。",
+      "use": "熟した実を採る。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "K",
+      "form": "ka",
+      "ipa": "ka",
+      "meaning": "草",
+      "parents": [],
+      "structure": "k",
+      "history": "緑→草。READMEの原始語根。",
+      "use": "草を刈って乾かす。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "L",
+      "form": "l",
+      "ipa": "l̩",
+      "meaning": "空",
+      "parents": [],
+      "structure": "l",
+      "history": "青→空。READMEの原始語根。",
+      "use": "空を見て天候を判断する。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "J",
+      "form": "ja",
+      "ipa": "ʝa",
+      "meaning": "木の枝",
+      "parents": [],
+      "structure": "j",
+      "history": "茶→木の枝。READMEの原始語根。",
+      "use": "枝を拾って運ぶ。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "TH",
+      "form": "tha",
+      "ipa": "θa",
+      "meaning": "花",
+      "parents": [],
+      "structure": "th",
+      "history": "紫→花。READMEの原始語根。",
+      "use": "咲いた花を摘む。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "T",
+      "form": "ta",
+      "ipa": "ta",
+      "meaning": "肉",
+      "parents": [],
+      "structure": "t",
+      "history": "ピンク→肉。READMEの原始語根。",
+      "use": "獲物の肉を分ける。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "N",
+      "form": "n",
+      "ipa": "n̩",
+      "meaning": "火打石",
+      "parents": [],
+      "structure": "n",
+      "history": "オレンジ→火打石。READMEの原始語根。",
+      "use": "刃を作る石を選ぶ。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "Z",
+      "form": "za",
+      "ipa": "za",
+      "meaning": "石",
+      "parents": [],
+      "structure": "z",
+      "history": "灰→石。READMEの原始語根。",
+      "use": "使える石を拾う。",
+      "review": "原始語根／発音は仮"
+    },
+    {
+      "id": "FIRE",
+      "form": "nam",
+      "ipa": "nam",
+      "meaning": "火",
+      "parents": [
+        "N",
+        "M"
+      ],
+      "structure": "n-m",
+      "history": "火打石で火を移した炭を指す呼び名→燃えているもの→火一般。点火された炭という中間用法を置く。",
+      "use": "火が消える前に燃料を足す。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "EMBER",
+      "form": "namaj",
+      "ipa": "namaɟ",
+      "meaning": "熾火",
+      "parents": [
+        "FIRE"
+      ],
+      "structure": "nam-aj",
+      "history": "火の一部分のうち、炎が消えても赤く残り、次の火を起こせる塊の呼び名が定着。",
+      "use": "熾火を灰の下に残す。",
+      "review": "候補"
+    },
+    {
+      "id": "BURN",
+      "form": "namej",
+      "ipa": "nameɟ",
+      "meaning": "燃える・燃やす",
+      "parents": [
+        "FIRE"
+      ],
+      "structure": "nam-ej",
+      "history": "火の活動を表す動詞。自動・他動の区別は統語・使役の設計まで保留。",
+      "use": "湿った薪は燃えにくい。",
+      "review": "候補"
+    },
+    {
+      "id": "HEARTH",
+      "form": "namal",
+      "ipa": "namaɭ",
+      "meaning": "炉・火床",
+      "parents": [
+        "FIRE"
+      ],
+      "structure": "nam-al",
+      "history": "火を常時扱うように石で囲み、管理する場所。単なる火災の場所は含めない。",
+      "use": "炉の周りに集まる。",
+      "review": "候補"
+    },
+    {
+      "id": "ROAST",
+      "form": "namat",
+      "ipa": "namat",
+      "meaning": "焼き肉",
+      "parents": [
+        "FIRE",
+        "T"
+      ],
+      "structure": "nam-t",
+      "history": "肉を火にかざして食べる習慣から、焼いて食べる肉を指す食材名が定着。",
+      "use": "焼き肉を客に渡す。",
+      "review": "候補"
+    },
+    {
+      "id": "ROASTV",
+      "form": "namatej",
+      "ipa": "namateɟ",
+      "meaning": "焼く（食物を）",
+      "parents": [
+        "ROAST"
+      ],
+      "structure": "namat-ej",
+      "history": "焼き肉を用意する作業→肉以外も火で焼いて調理する作業。煮る・食べるまでは含めない。",
+      "use": "種実を軽く焼く。",
+      "review": "候補"
+    },
+    {
+      "id": "SMOKE",
+      "form": "kanam",
+      "ipa": "kanam",
+      "meaning": "煙",
+      "parents": [
+        "FIRE",
+        "K"
+      ],
+      "structure": "k-nam",
+      "history": "湿った草を炉にくべるときの『草火』→そのとき立つ煙→煙一般。草火という中間用法が必要。",
+      "use": "煙が寝床に入ってくる。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "FUMIGATE",
+      "form": "kanamej",
+      "ipa": "kanameɟ",
+      "meaning": "燻す",
+      "parents": [
+        "SMOKE"
+      ],
+      "structure": "kanam-ej",
+      "history": "煙を出し、物に当てる作業。煙が出るだけの現象とは区別する案。",
+      "use": "肉を燻して保存する。",
+      "review": "候補"
+    },
+    {
+      "id": "SMOKED",
+      "form": "kanamat",
+      "ipa": "kanamat",
+      "meaning": "燻製肉",
+      "parents": [
+        "SMOKE",
+        "T"
+      ],
+      "structure": "kanam-t",
+      "history": "炉の煙に長く当てて保存した肉。焼き肉との区別には保存の工程がある。",
+      "use": "旅に燻製肉を持つ。",
+      "review": "候補"
+    },
+    {
+      "id": "ASH",
+      "form": "namejoj",
+      "ipa": "nameɟoɟ",
+      "meaning": "灰",
+      "parents": [
+        "BURN"
+      ],
+      "structure": "nam-ej-oj",
+      "history": "燃焼の結果残る細かな残滓を指す結果名。熾火と違って燃料として火を保持しない。",
+      "use": "冷えた灰を炉から出す。",
+      "review": "候補"
+    },
+    {
+      "id": "SHARD",
+      "form": "zaj",
+      "ipa": "zaɟ",
+      "meaning": "石片",
+      "parents": [
+        "Z"
+      ],
+      "structure": "z-aj",
+      "history": "石の部分のうち、加工時に割り離した小片を指す用法が定着。接辞-aj自体には分離の意味はない。",
+      "use": "石片が足に刺さった。",
+      "review": "候補"
+    },
+    {
+      "id": "HAMMER",
+      "form": "zaz",
+      "ipa": "zaʐ",
+      "meaning": "槌・打ち石",
+      "parents": [
+        "Z"
+      ],
+      "structure": "z-az",
+      "history": "道具化した石のうち、握って打つもの。共同体で典型的な石の使い方として打撃を置く。",
+      "use": "槌で杭を打つ。",
+      "review": "候補"
+    },
+    {
+      "id": "BLADE",
+      "form": "naj",
+      "ipa": "naɟ",
+      "meaning": "刃・刃片",
+      "parents": [
+        "N"
+      ],
+      "structure": "n-aj",
+      "history": "火打石を割って得た薄い片→鋭い縁を使って切る片→材質に依存しない刃。",
+      "use": "欠けた刃を替える。",
+      "review": "候補"
+    },
+    {
+      "id": "CUT",
+      "form": "najej",
+      "ipa": "naɟeɟ",
+      "meaning": "切る",
+      "parents": [
+        "BLADE"
+      ],
+      "structure": "naj-ej",
+      "history": "刃を使う典型的作業→切断する。切る対象は複合語の中ではなく文中で指定する。",
+      "use": "紐を切る。",
+      "review": "候補"
+    },
+    {
+      "id": "KNIFE",
+      "form": "najaz",
+      "ipa": "naɟaʐ",
+      "meaning": "小刀",
+      "parents": [
+        "BLADE"
+      ],
+      "structure": "naj-az",
+      "history": "刃を握って扱えるように柄などを付けた道具。刃そのものと持ち運ぶ完成品を区別。",
+      "use": "小刀を腰に下げる。",
+      "review": "候補"
+    },
+    {
+      "id": "MORTAR",
+      "form": "jaz",
+      "ipa": "ʝaz",
+      "meaning": "臼",
+      "parents": [
+        "Z",
+        "J"
+      ],
+      "structure": "j-z",
+      "history": "棒で突いて使う窪んだ石→臼。枝を使うというだけでなく、突き棒と受け皿の作業慣行を語源に置く。",
+      "use": "臼に種を入れる。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "POUND",
+      "form": "jazej",
+      "ipa": "ʝazeɟ",
+      "meaning": "搗く・突き砕く",
+      "parents": [
+        "MORTAR"
+      ],
+      "structure": "jaz-ej",
+      "history": "臼を使う反復的な打撃の作業。磨り潰す作業とは区別する。",
+      "use": "硬い種を搗く。",
+      "review": "候補"
+    },
+    {
+      "id": "TWIG",
+      "form": "jaj",
+      "ipa": "ʝaɟ",
+      "meaning": "小枝",
+      "parents": [
+        "J"
+      ],
+      "structure": "j-aj",
+      "history": "枝から分かれる細い枝→小枝。すべての枝の部分ではなく、焚き付けや細工に使う細枝が中心。",
+      "use": "小枝を束ねておく。",
+      "review": "候補"
+    },
+    {
+      "id": "THICKET",
+      "form": "jak",
+      "ipa": "ʝag",
+      "meaning": "藪",
+      "parents": [
+        "J"
+      ],
+      "structure": "j-ak",
+      "history": "枝が密に集まって行く手を遮る茂み。木の種類ではなく通り抜けにくい植生を呼び分ける。",
+      "use": "藪を避けて回る。",
+      "review": "候補"
+    },
+    {
+      "id": "FRAME",
+      "form": "shaj",
+      "ipa": "ʃaʝ",
+      "meaning": "骨組み",
+      "parents": [
+        "J",
+        "SH"
+      ],
+      "structure": "sh-j",
+      "history": "枝を組んで骨のように荷重を支える構造→骨組み。身体の骨の支持機能を、枝を組む作業へ移した比較。",
+      "use": "骨組みが傾いている。",
+      "review": "候補"
+    },
+    {
+      "id": "BUILD",
+      "form": "shajej",
+      "ipa": "ʃaʝeɟ",
+      "meaning": "組み立てる",
+      "parents": [
+        "FRAME"
+      ],
+      "structure": "shaj-ej",
+      "history": "枝の骨組みを組む作業→部材を組んで構造を作る作業。作る一般とはまだ区別する。",
+      "use": "住居の骨組みを組み立てる。",
+      "review": "候補"
+    },
+    {
+      "id": "FIBER",
+      "form": "kaj",
+      "ipa": "kaɟ",
+      "meaning": "繊維",
+      "parents": [
+        "K"
+      ],
+      "structure": "k-aj",
+      "history": "草を裂いて取り出す細長い部分→撚れる繊維。草のどの部分でもよいわけではない。",
+      "use": "長い繊維を選り分ける。",
+      "review": "候補"
+    },
+    {
+      "id": "TWIST",
+      "form": "kajej",
+      "ipa": "kaɟeɟ",
+      "meaning": "撚る",
+      "parents": [
+        "FIBER"
+      ],
+      "structure": "kaj-ej",
+      "history": "繊維を手の間でねじり合わせる典型的な加工→撚る。",
+      "use": "二本の繊維束を撚る。",
+      "review": "候補"
+    },
+    {
+      "id": "CORD",
+      "form": "kajak",
+      "ipa": "kaɟag",
+      "meaning": "紐・縄",
+      "parents": [
+        "FIBER",
+        "TWIST"
+      ],
+      "structure": "kaj-ak",
+      "history": "集めた繊維を撚り合わせた束→紐。集合接辞だけでは撚り工程を表せず、加工の慣用が意味を限定する。",
+      "use": "荷物を紐で縛る。",
+      "review": "候補"
+    },
+    {
+      "id": "TIE",
+      "form": "kajakej",
+      "ipa": "kaɟageɟ",
+      "meaning": "結ぶ・縛る",
+      "parents": [
+        "CORD"
+      ],
+      "structure": "kajak-ej",
+      "history": "紐を用いて物を固定する作業。単に紐を作る作業は撚ると区別。",
+      "use": "骨組みの継ぎ目を結ぶ。",
+      "review": "候補"
+    },
+    {
+      "id": "SNARE",
+      "form": "kajakaz",
+      "ipa": "kaɟagaʐ",
+      "meaning": "輪罠",
+      "parents": [
+        "CORD",
+        "TIE"
+      ],
+      "structure": "kajak-az",
+      "history": "紐で締まる輪を作り、獲物を捕らえる道具として使う慣行から定着。紐製道具全般ではない。",
+      "use": "輪罠を仕掛ける。",
+      "review": "候補"
+    },
+    {
+      "id": "NET",
+      "form": "kajakak",
+      "ipa": "kaɟagag",
+      "meaning": "網",
+      "parents": [
+        "CORD",
+        "TIE"
+      ],
+      "structure": "kajak-ak",
+      "history": "複数の紐を交点で結んだ網目状の集合。紐の束を指すだけの表現とは区別。",
+      "use": "網の破れを直す。",
+      "review": "候補"
+    },
+    {
+      "id": "BASKET",
+      "form": "jakaj",
+      "ipa": "ʝakaɟ",
+      "meaning": "籠",
+      "parents": [
+        "FIBER",
+        "J"
+      ],
+      "structure": "j-kaj",
+      "history": "細枝を芯にし、繊維を編んで作る入れ物→籠。材料を並べるだけで容器になるわけではなく、製作慣行を置く。",
+      "use": "籠を背負って採集に行く。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "GATHER",
+      "form": "jakajej",
+      "ipa": "ʝakaɟeɟ",
+      "meaning": "採り集める",
+      "parents": [
+        "BASKET"
+      ],
+      "structure": "jakaj-ej",
+      "history": "籠に入れて採集する仕事→可搬の食材・材料を採り集める。籠なしでも使える動詞へ一般化。",
+      "use": "落ちた実を採り集める。",
+      "review": "候補"
+    },
+    {
+      "id": "THATCH",
+      "form": "shajak",
+      "ipa": "ʃaʝak",
+      "meaning": "草葺き・屋根",
+      "parents": [
+        "FRAME",
+        "K"
+      ],
+      "structure": "shaj-k",
+      "history": "骨組みに重ねて雨を避ける草の覆い→屋根。後に草以外の材料へ一般化する候補。",
+      "use": "雨の前に屋根を葺き直す。",
+      "review": "候補"
+    },
+    {
+      "id": "HOUSE",
+      "form": "shajakal",
+      "ipa": "ʃaʝakaɭ",
+      "meaning": "家・住居",
+      "parents": [
+        "THATCH"
+      ],
+      "structure": "shajak-al",
+      "history": "草葺きの下で寝起きする場所→住居。倉庫・作業小屋へ広げるかは保留。",
+      "use": "家に戻る。",
+      "review": "候補"
+    },
+    {
+      "id": "VILLAGE",
+      "form": "shajakalak",
+      "ipa": "ʃaʝakaɭag",
+      "meaning": "集落",
+      "parents": [
+        "HOUSE"
+      ],
+      "structure": "shajakal-ak",
+      "history": "近接した住居の集合→共に暮らす集落。離れた住居の総数は指さない。",
+      "use": "隣の集落へ向かう。",
+      "review": "候補"
+    },
+    {
+      "id": "GRASSLAND",
+      "form": "kal",
+      "ipa": "kaɭ",
+      "meaning": "草地",
+      "parents": [
+        "K"
+      ],
+      "structure": "k-al",
+      "history": "草が広く生えている地面を指す場所名。採集、通行、野営の場所を呼び分ける。",
+      "use": "草地に出ると獲物が見えた。",
+      "review": "候補"
+    },
+    {
+      "id": "SEED",
+      "form": "chaj",
+      "ipa": "tʃaɟ",
+      "meaning": "種",
+      "parents": [
+        "CH"
+      ],
+      "structure": "ch-aj",
+      "history": "果実の中の硬い粒→播くと新しい草木が生える粒→種。発芽を観察する中間段階を置く。",
+      "use": "大きな種を播種用に残す。",
+      "review": "候補"
+    },
+    {
+      "id": "SOW",
+      "form": "chajej",
+      "ipa": "tʃaɟeɟ",
+      "meaning": "播く",
+      "parents": [
+        "SEED"
+      ],
+      "structure": "chaj-ej",
+      "history": "食べる種と生やす種を区別する暮らしで、地面に種を置く作業として定着。",
+      "use": "雨の後に種を播く。",
+      "review": "候補"
+    },
+    {
+      "id": "FIELD",
+      "form": "chajal",
+      "ipa": "tʃaɟaɭ",
+      "meaning": "畑・播種地",
+      "parents": [
+        "SEED",
+        "SOW"
+      ],
+      "structure": "chaj-al",
+      "history": "種を意図的に播いて世話をする場所。種が自然に落ちた場所は含めない。",
+      "use": "畑の草を取る。",
+      "review": "候補"
+    },
+    {
+      "id": "EAT",
+      "form": "chej",
+      "ipa": "tʃeɟ",
+      "meaning": "食べる",
+      "parents": [
+        "CH"
+      ],
+      "structure": "ch-ej",
+      "history": "果実を食べる典型的行為→肉・種実も含む摂食。物を拾う作業とは区別する。",
+      "use": "出発前に食べる。",
+      "review": "候補"
+    },
+    {
+      "id": "HARVEST",
+      "form": "chak",
+      "ipa": "tʃag",
+      "meaning": "収穫物",
+      "parents": [
+        "CH",
+        "GATHER"
+      ],
+      "structure": "ch-ak",
+      "history": "採り集めて持ち帰った実のまとまり→種実を含む収穫物。収穫する行為そのものではない。",
+      "use": "今日の収穫物を並べる。",
+      "review": "候補"
+    },
+    {
+      "id": "SHARE",
+      "form": "chakaj",
+      "ipa": "tʃagaɟ",
+      "meaning": "分け前",
+      "parents": [
+        "HARVEST"
+      ],
+      "structure": "chak-aj",
+      "history": "共同で集めた収穫物を人ごとに分ける慣行で、渡される一部分を呼ぶ語が定着。",
+      "use": "子どもの分け前を残す。",
+      "review": "候補"
+    },
+    {
+      "id": "DISTRIBUTE",
+      "form": "chakajej",
+      "ipa": "tʃagaɟeɟ",
+      "meaning": "分配する",
+      "parents": [
+        "SHARE"
+      ],
+      "structure": "chakaj-ej",
+      "history": "分け前を作って人に渡す作業→食物以外も配分する。切断そのものとは区別。",
+      "use": "収穫物を分配する。",
+      "review": "候補"
+    },
+    {
+      "id": "GRINDSTONE",
+      "form": "chaz",
+      "ipa": "tʃaz",
+      "meaning": "磨り石",
+      "parents": [
+        "Z",
+        "CH",
+        "SEED"
+      ],
+      "structure": "ch-z",
+      "history": "食べる実・種を石面で磨り潰す作業に使う石→磨り石。臼の突き砕く作業と区別。",
+      "use": "磨り石を洗う。",
+      "review": "候補"
+    },
+    {
+      "id": "GRIND",
+      "form": "chazej",
+      "ipa": "tʃazeɟ",
+      "meaning": "磨り潰す",
+      "parents": [
+        "GRINDSTONE"
+      ],
+      "structure": "chaz-ej",
+      "history": "磨り石で物を摩擦によって細かくする作業。",
+      "use": "種を磨り潰す。",
+      "review": "候補"
+    },
+    {
+      "id": "FLOUR",
+      "form": "chazejoj",
+      "ipa": "tʃazeɟoɟ",
+      "meaning": "粉（種実を挽いた粉）",
+      "parents": [
+        "GRIND",
+        "SEED"
+      ],
+      "structure": "chaz-ej-oj",
+      "history": "食べる種実を磨り潰した結果の細かな産物→粉。灰や岩粉まで含む一般的な粉末へ広げるかは保留。",
+      "use": "粉を水で練る。",
+      "review": "候補"
+    },
+    {
+      "id": "PIGMENT",
+      "form": "zam",
+      "ipa": "zam",
+      "meaning": "炭粉・黒い顔料",
+      "parents": [
+        "M",
+        "Z"
+      ],
+      "structure": "z-m",
+      "history": "石で細かく砕いた炭→指や枝に付けて印を描くための炭粉。",
+      "use": "炭粉を水で湿らせる。",
+      "review": "候補"
+    },
+    {
+      "id": "DRAW",
+      "form": "zamej",
+      "ipa": "zameɟ",
+      "meaning": "描く・印を付ける",
+      "parents": [
+        "PIGMENT"
+      ],
+      "structure": "zam-ej",
+      "history": "炭粉を壁や石に付けて形を残す作業→描く。文字を書くまで含めるかは保留。",
+      "use": "帰り道の印を描く。",
+      "review": "候補"
+    },
+    {
+      "id": "DRAWING",
+      "form": "zamejoj",
+      "ipa": "zameɟoɟ",
+      "meaning": "図・印",
+      "parents": [
+        "DRAW"
+      ],
+      "structure": "zam-ej-oj",
+      "history": "描く作業で残った形→図や印。位置を知らせる印、獲物の輪郭などを指す。",
+      "use": "この印を覚えておく。",
+      "review": "候補"
+    },
+    {
+      "id": "RECORD",
+      "form": "zamejojak",
+      "ipa": "zameɟoɟag",
+      "meaning": "記録",
+      "parents": [
+        "DRAWING",
+        "SHARE"
+      ],
+      "structure": "zam-ej-oj-ak",
+      "history": "分け前や日ごとの印を並べて残したまとまり→後から参照する記録。絵の集合すべてを記録とはしない。",
+      "use": "渡した分け前の記録を残す。",
+      "review": "候補"
+    },
+    {
+      "id": "CLOUD",
+      "form": "lam",
+      "ipa": "lam",
+      "meaning": "雨雲・雲",
+      "parents": [
+        "L",
+        "M"
+      ],
+      "structure": "l-m",
+      "history": "空に浮かぶ暗い塊を『空の炭』と呼ぶ比喩→雨をもたらす雲→明るい雲も含む雲。色と塊状の外観が媒介。",
+      "use": "雨雲が近づいている。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "RAIN",
+      "form": "lamov",
+      "ipa": "lamow",
+      "meaning": "雨",
+      "parents": [
+        "CLOUD"
+      ],
+      "structure": "lam-ov",
+      "history": "雲から流れ出して落ちるものとして名付けた水滴の現象。雲の一部分というだけでは導出しない。",
+      "use": "雨が降る前に戻る。",
+      "review": "候補"
+    },
+    {
+      "id": "DROP",
+      "form": "lamovaj",
+      "ipa": "lamowaɟ",
+      "meaning": "雨粒・滴",
+      "parents": [
+        "RAIN"
+      ],
+      "structure": "lamov-aj",
+      "history": "降る雨の一単位→雨粒→水などの滴。液体の小さな塊として見分ける。",
+      "use": "滴が屋根から落ちる。",
+      "review": "候補"
+    },
+    {
+      "id": "WATER",
+      "form": "lamovak",
+      "ipa": "lamowag",
+      "meaning": "水",
+      "parents": [
+        "RAIN"
+      ],
+      "structure": "lamov-ak",
+      "history": "集めた雨→雨水→飲用・洗浄に使う水→出所を問わない水。各段階を経る語義拡張案。",
+      "use": "水を汲みに行く。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "DRINK",
+      "form": "lamovakej",
+      "ipa": "lamowageɟ",
+      "meaning": "飲む",
+      "parents": [
+        "WATER"
+      ],
+      "structure": "lamovak-ej",
+      "history": "水を体に取り入れる典型的行為→液体を飲む。汲む・洗うは別の語が必要。",
+      "use": "歩く前に水を飲む。",
+      "review": "候補"
+    },
+    {
+      "id": "WATERPLACE",
+      "form": "lamovakal",
+      "ipa": "lamowagaɭ",
+      "meaning": "水場",
+      "parents": [
+        "WATER"
+      ],
+      "structure": "lamovak-al",
+      "history": "日常的に水を汲める場所。単に水がこぼれた地点は指さない。",
+      "use": "水場で待ち合わせる。",
+      "review": "候補"
+    },
+    {
+      "id": "STREAM",
+      "form": "lamovakov",
+      "ipa": "lamowagow",
+      "meaning": "流れ・小川",
+      "parents": [
+        "WATER"
+      ],
+      "structure": "lamovak-ov",
+      "history": "水場から流れ出る水→継続して流れる細い水路→小川。流れの運動と水路の場所の多義化案。",
+      "use": "小川に沿って歩く。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "HAIL",
+      "form": "laz",
+      "ipa": "laz",
+      "meaning": "雹",
+      "parents": [
+        "L",
+        "Z"
+      ],
+      "structure": "l-z",
+      "history": "空から落ちる、硬く丸い石のような粒→雹。石に似た硬さと落下時の打撃が比較の根拠。",
+      "use": "雹で屋根が傷んだ。",
+      "review": "候補"
+    },
+    {
+      "id": "BRIDGE",
+      "form": "lamovakshaj",
+      "ipa": "lamowagaʃaʝ",
+      "meaning": "橋",
+      "parents": [
+        "FRAME",
+        "WATER"
+      ],
+      "structure": "lamovak-shaj",
+      "history": "水を跨いで組み、上を歩ける骨組み→橋。岸の骨組み全般は含めない。",
+      "use": "橋の継ぎ目を締め直す。",
+      "review": "候補"
+    },
+    {
+      "id": "SCENT",
+      "form": "thov",
+      "ipa": "θow",
+      "meaning": "香り",
+      "parents": [
+        "TH"
+      ],
+      "structure": "th-ov",
+      "history": "花から外へ漂ってくるもの→花の香り→心地よい香り一般。不快な臭いまで含めるかは保留。",
+      "use": "花の香りがする。",
+      "review": "候補"
+    },
+    {
+      "id": "SMELL",
+      "form": "thovej",
+      "ipa": "θoweɟ",
+      "meaning": "嗅ぐ",
+      "parents": [
+        "SCENT"
+      ],
+      "structure": "thov-ej",
+      "history": "香りを鼻で確かめる典型的行為→嗅ぐ。香りを放つ作用とは区別する語義案。",
+      "use": "食物の匂いを嗅ぐ。",
+      "review": "候補"
+    },
+    {
+      "id": "BOUQUET",
+      "form": "thak",
+      "ipa": "θag",
+      "meaning": "花束",
+      "parents": [
+        "TH",
+        "TIE"
+      ],
+      "structure": "th-ak",
+      "history": "摘んで集め、持ち運べるように束ねた花。野に咲く花の集合とは呼び分ける。",
+      "use": "訪問の手土産に花束を持つ。",
+      "review": "候補"
+    },
+    {
+      "id": "BODY",
+      "form": "vat",
+      "ipa": "vat",
+      "meaning": "身体・体",
+      "parents": [
+        "T",
+        "V"
+      ],
+      "structure": "v-t",
+      "history": "血が通っている肉→一体として動く生き物の肉のまとまり→身体。人間専用にはしない。",
+      "use": "体を休める。",
+      "review": "候補"
+    },
+    {
+      "id": "ARM",
+      "form": "javat",
+      "ipa": "ʝavat",
+      "meaning": "腕・前肢",
+      "parents": [
+        "BODY",
+        "J"
+      ],
+      "structure": "j-vat",
+      "history": "身体から枝のように分かれて伸び、物を支えたり扱ったりする部位→腕・前肢。脚との分化は用途に置く。",
+      "use": "腕を傷めた。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "HAND",
+      "form": "javataj",
+      "ipa": "ʝavataɟ",
+      "meaning": "手",
+      "parents": [
+        "ARM"
+      ],
+      "structure": "javat-aj",
+      "history": "腕の先で物を掴む部分→手。腕の途中の任意の部分ではなく、末端の把持機能で慣用化。",
+      "use": "手で紐を押さえる。",
+      "review": "候補"
+    },
+    {
+      "id": "GRAB",
+      "form": "javatajej",
+      "ipa": "ʝavataɟeɟ",
+      "meaning": "掴む",
+      "parents": [
+        "HAND"
+      ],
+      "structure": "javat-aj-ej",
+      "history": "手を使って物を保持する典型的行為→掴む。手で行う作業すべてを意味しない。",
+      "use": "枝を掴んで登る。",
+      "review": "候補"
+    },
+    {
+      "id": "SKELETON",
+      "form": "shavat",
+      "ipa": "ʃavat",
+      "meaning": "骨格",
+      "parents": [
+        "BODY",
+        "SH"
+      ],
+      "structure": "sh-vat",
+      "history": "解体で肉を除くと残る、身体の形を保つ骨のまとまり→骨格。単独の骨と区別する。",
+      "use": "骨格を見て獲物の大きさを知る。",
+      "review": "候補"
+    },
+    {
+      "id": "BLEED",
+      "form": "vej",
+      "ipa": "veɟ",
+      "meaning": "出血する",
+      "parents": [
+        "V"
+      ],
+      "structure": "v-ej",
+      "history": "血が身体の外へ出る現象を動詞化。血を使った作業一般にはしない。",
+      "use": "傷口がまだ出血している。",
+      "review": "候補"
+    },
+    {
+      "id": "CLOT",
+      "form": "vaz",
+      "ipa": "vaz",
+      "meaning": "血の塊・凝血",
+      "parents": [
+        "V",
+        "Z"
+      ],
+      "structure": "v-z",
+      "history": "流れなくなり塊になった血を『血の石』と呼ぶ→凝血。硬化と離散した塊という観察が媒介。",
+      "use": "血の塊が傷に付いている。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "COAGULATE",
+      "form": "vazej",
+      "ipa": "vazeɟ",
+      "meaning": "凝固する（血が）",
+      "parents": [
+        "CLOT"
+      ],
+      "structure": "vaz-ej",
+      "history": "血の塊が生じる過程→血が凝固する。物質一般の凝固への拡張は保留。",
+      "use": "血が凝固してきた。",
+      "review": "候補"
+    },
+    {
+      "id": "WOUND",
+      "form": "najav",
+      "ipa": "naɟav",
+      "meaning": "切り傷",
+      "parents": [
+        "BLADE",
+        "V"
+      ],
+      "structure": "naj-v",
+      "history": "刃で切って出た血を指す呼び名→出血した切れ目→切り傷。血から傷への隣接的な意味変化を置く。",
+      "use": "切り傷を水で洗う。",
+      "review": "候補"
+    },
+    {
+      "id": "DRESSING",
+      "form": "vak",
+      "ipa": "vak",
+      "meaning": "傷の覆い・当て草",
+      "parents": [
+        "V",
+        "K"
+      ],
+      "structure": "v-k",
+      "history": "出血部に当てて押さえる草の束→傷を覆う当て物。薬効を持つとは設定しない。",
+      "use": "傷の覆いを取り替える。",
+      "review": "語源要検討"
+    },
+    {
+      "id": "TEND",
+      "form": "vakej",
+      "ipa": "vakeɟ",
+      "meaning": "傷を手当てする",
+      "parents": [
+        "DRESSING"
+      ],
+      "structure": "vak-ej",
+      "history": "傷の当て物を用意して押さえ、取り替える作業→傷を手当てする。病気一般の治療へはまだ広げない。",
+      "use": "怪我人の傷を手当てする。",
+      "review": "候補"
+    },
+    {
+      "id": "BUTCHER",
+      "form": "tej",
+      "ipa": "teɟ",
+      "meaning": "解体する（獲物を）",
+      "parents": [
+        "T"
+      ],
+      "structure": "t-ej",
+      "history": "得た獲物を食べられる肉として切り分ける仕事。食べる行為はchejと区別。",
+      "use": "皆で獲物を解体する。",
+      "review": "候補"
+    },
+    {
+      "id": "HOUSEHOLD",
+      "form": "namalvatak",
+      "ipa": "namaɭavatag",
+      "meaning": "世帯・同じ炉で暮らす人々",
+      "parents": [
+        "HEARTH",
+        "BODY"
+      ],
+      "structure": "namal-vat-ak",
+      "history": "同じ炉の周りにいる身体の集まり→そこで日常を共にする人々→生活単位。身体から人への換喩と、継続した共同生活の慣用が必要。",
+      "use": "二つの世帯で収穫物を分ける。",
+      "review": "語源要検討"
+    }
+  ]
+}
